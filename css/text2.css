@@ -1,0 +1,175 @@
+body{padding-top: 50px;}
+
+
+
+/************************************** Start Nav bar overriding Bootstrap ******************************/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #E41B17;}
+.navbar-inverse .navbar-nav > li > a{color: #BBB;}
+.dropdown-menu > li > a{background-color: #333;}
+.dropdown-menu > li > a{color: #FFF;}
+.dropdown-menu{
+    background-color: #333;border-top: 3px solid #E41B17;min-width: 200px;}
+.dropdown-menu > li > a{
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    background-color: #E41B17;color: #FFF;padding-left: 25px;}
+.dropdown-menu .divider{background-color: #6f5858;}
+.navbar-brand{font-size: 30px;color: #BBB;line-height: 20px;}
+.navbar-brand span{color: #E41B17;;}
+.navbar-right .dropdown-menu {right: auto;left: 0;}
+/*************************** End nav bar overriding Bootstrap *********************************/
+
+
+
+
+
+
+
+/******************************* start Carouser  ***************************/
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{height: 500px;}
+
+/******************************* End Carouser  ***************************/
+
+
+
+
+
+
+
+
+
+/***************************** Start Fit & Strong ***************************/
+.about{padding-top: 60px;padding-bottom: 60px;}
+.about .lead{color: #888;font-size: 25px;margin-top: 15px;}
+.about h1{font-weight: bold;}
+.about h1 span{color:#E41B17;}
+.fit-strong .row{margin-top: 60px;margin-bottom: 60px;}
+.fit-strong .col-md-6{ margin-top: 60px;background-color: #EEE;}
+.fit-strong .col-md-6 h1{background-color: cadetblue;padding: 20px;transition: 0.5s;}
+.fit-strong .col-md-6 h1:hover{background-color: blueviolet;}
+.fit-strong .col-md-6 button{margin-bottom: 20px;}
+.fit-strong .row p{line-height:2em;}
+
+/********************************* End Fit & Strong *******************/
+
+
+
+
+
+
+
+/************************************ Start group-one   *******************/
+.Fit-Strong{margin-top: 100px;margin-bottom: 100px;}
+.thumbnail{transition: 0.5s;}
+.thumbnail:hover{margin-top: 5px;background-color: cadetblue;}
+
+.group-one .lead{color: black;transition: 0.5s;}
+.group-one .lead:hover{color: white;font-size: 22px;}
+
+/*********************************** End group-one  ************************/
+
+
+
+
+
+/******************************* start section About smart gym ***********************/
+.group-two{background-color: #888;padding: 20px;}
+.lest-news p{color: black;}
+.group-two .one{color: white;font-size: 50px;margin-bottom: 25px;}
+.group-two .text-center p{line-height: 2em;color: #eee;}
+.group-two{margin-top: 100px;margin-bottom: 200px;} 
+/******************************* End section About smart gym *************************/
+
+
+
+/******************************    stert lest news        ******************/
+.lest-news h2{background-color: teal;padding: 10px;margin-top: 0;color: whitesmoke;transition: 0.5s;}
+.lest-news h2:hover{background-color: slateblue;font-size: 29px;}
+.lest-news p{padding-top: 20px;padding-bottom: 30px;}
+/******************************    End lest news        ******************/
+
+
+
+
+
+
+/********************************** Start BRANCH CLASS ****************/
+.branch-class{background-color: #242424;color: springgreen;margin-top: 100px;padding: 100px;border-radius: 8px;}
+.branch-class .col-md-12  h1{margin-bottom: 10px;}
+.branch-class .col-md-12  p{margin-bottom: 30px;}
+.branch-class .col-md-2 h3{background-color: slategray;padding: 20px;border-radius: 10px;}
+.branch-class .col-md-2 h3{transition: 0.5s;}
+.branch-class .col-md-2 h3:hover{color: snow;cursor: pointer;}
+/*********************************** End BRANCH CLASS *************************/
+
+
+
+/******************************************* Start SMART GYM FACTS  **********************/
+.gym-facts{background-color: royalblue;padding: 80px;border-radius: 8px;}
+.gym-facts .col-md-12 h1, p{color: black;padding-bottom: 30px;}
+.gym-facts .col-md-3 h1, h2{color: rgb(135, 250, 3); transition: 0.3s;}
+.gym-facts .col-md-3 h1:hover{font-size: 40px;color: #FFF; cursor: pointer;}
+.gym-facts .col-md-3 hr{width: 30%;margin-left: 0;margin-top: -5px;}
+/******************************************** End SMART GYM FACTS ******************/
+
+
+
+
+
+/****  Start SMART GYM CLASSES *************/
+.smart-gym{background-color: #242424;color: #FFF;border-radius: 10px;padding: 20px;}
+.smart-gym .gym-class h1{padding-top: 80px;padding-bottom: 20px;}
+.smart-gym .gym-class button{margin-bottom: 25px;}
+.smart-gym .col-md-4{padding-bottom: 30px;}
+.smart-gym .col-md-4 img{transition: 1s;}
+.smart-gym .col-md-4 img:hover{filter: grayscale();}
+.smart-gym .col-md-4 h1{text-align: center;margin-bottom: 100%;transition: 0.5s;cursor: pointer;}
+.smart-gym .col-md-4 h1:hover{margin-bottom: 110%;}
+.col-md-12 {width: 100%;margin-bottom: 40px;margin-top: 20px;}
+/**** End SMART GYM CLASSES *************/
+
+
+
+/************* Start CONTACT US ******************/
+.contact-us{background-color:#242424;color: white;padding: 20px;border-radius: 10px;}
+.contact-us hr {
+    margin-top: 14px;
+    margin-bottom: 38px;
+    border-top: 1px solid #807373;
+    width: 20%;
+    margin-left: 0;
+}
+.contact-us p{color: white;}
+.contact-us button{margin-bottom: 25px;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+/*************** End CONTACT US ************************/
+
+
+
+
+
+/****************** Start Location  ****************/
+.location{background-color: black;color: white;padding: 40px;border-radius: 10px;}
+
+.location .col-md-4 span{color: blue;font-weight: bold;}
+
+.gym-facts .col-md-12 h1, p {color: white;padding-bottom: 0;}
+
+.location h4, .h4{font-size: 22px;
+    color: rebeccapurple;}
+
+
+/****************** End Location  ****************/
